@@ -1,4 +1,40 @@
-<h1 align="center">Hi 👋, I'm Aniruddh Dubge</h1>
+const path = require("path");
+const fetch = require("node-fetch");
+const fs = require("fs");
+
+let stars = 0,
+  page = 1;
+
+let special;
+
+const CountStars = async () => {
+  let StarsData = await fetch(
+    `https://api.github.com/users/anuplayz/starred?per_page=100&page=${page}`
+  ).then((res) => res.json());
+  stars += StarsData.length;
+  page++;
+  if (StarsData.length === 100) CountStars();
+  else WriteReadMe();
+};
+
+const WriteReadMe = async () => {
+  //Get ReadMe path
+  const ReadMe = path.join(__dirname, "..", "README.md");
+  const date = new Date();
+  
+  //Season Based Emoji
+  let dd = date.getDate(), mm = date.getMonth() + 1
+  
+  if(mm === 12)special = ["⛄", "❄", "🎄"]
+  else if(mm === 9 && dd === 29) special = ["🎉", "🎈", "🎊"]
+
+  //Fetching Info From Github API
+  let UserData = await fetch("https://api.github.com/users/anuplayz").then(
+    (res) => res.json()
+  );
+
+  //Creating the text what we gonna save on ReadMe file
+  const text = `<h1 align="center">Hi 👋, I'm Aniruddh Dubge</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=anuplayz&label=Profile%20views&color=0e75b6&style=flat" alt="anuplayz" /> </p>
@@ -25,3 +61,38 @@
 <p align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=anuplayz&theme=tokyonight">
 </p>
+
+  
+<!-- Last updated on ${date.toString()} ;-;-->
+<i>Last updated on ${date.getDate()}${
+    date.getDate() === 1
+      ? "st"
+      : date.getDate() === 2
+      ? "nd"
+      : date.getDate() === 3
+      ? "rd"
+      : "th"
+  } ${
+    [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December",
+    ][date.getMonth()]
+  } ${date.getFullYear()} using magic</i> ${special?special[2]:"✨"} ${(mm === 3 && dd === 29)?"and... today is my birthday":""}`;
+
+  //Saving on readme.md
+  fs.writeFileSync(ReadMe, text);
+};
+
+(() => {
+    CountStars();
+})()
