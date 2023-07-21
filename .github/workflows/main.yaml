@@ -20,7 +20,7 @@ jobs:
         run: |
           cd ${GITHUB_WORKSPACE}/
           npm i
-          node src/update.js
+          node update.js
       - name: 🚀 Deploy
         run: |
           git config user.name "${GITHUB_ACTOR}"
