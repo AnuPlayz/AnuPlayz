@@ -25,3 +25,7 @@
 <p align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=anuplayz&theme=tokyonight">
 </p>
+
+  
+<!-- Last updated on Fri Jul 21 2023 06:17:02 GMT+0000 (Coordinated Universal Time) ;-;-->
+<i>Last updated on 21th July 2023 using magic</i> ✨ 
