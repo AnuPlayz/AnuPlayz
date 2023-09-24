@@ -1,6 +1,4 @@
-<p align="center">
-  <img width="460" height="300" src="https://github.com/AnuPlayz/AnuPlayz/assets/120038186/c986a5d2-ba83-4eb6-ab14-7fa99d0e4275">
-</p>
+<p align="center"><img src="https://github.com/AnuPlayz/AnuPlayz/assets/120038186/59a9f4e0-2150-42cc-aba3-8a45aa657c6c"></p>
 <h1 align="center">Hi 👋, I'm Aniruddh Dubge</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
