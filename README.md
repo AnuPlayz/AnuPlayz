@@ -1,5 +1,5 @@
 <p align="center"><img src="https://github.com/AnuPlayz/AnuPlayz/assets/120038186/3cb287eb-6ea3-4bec-ae55-fd1769532fa1"></p>
-
+  
 <h1 align="center">Hi 👋, I'm Aniruddh Dubge</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
@@ -29,5 +29,5 @@
 </p>
 
   
-<!-- Last updated on Sun Sep 24 2023 06:15:40 GMT+0000 (Coordinated Universal Time) ;-;-->
+<!-- Last updated on Sun Sep 24 2023 12:22:38 GMT+0000 (Coordinated Universal Time) ;-;-->
 <i>Last updated on 24th September 2023 using magic</i> ✨ 
