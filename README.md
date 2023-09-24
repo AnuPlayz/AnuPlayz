@@ -1,4 +1,4 @@
-![d9e1e8dae9d45a41618667ba823d18f8](https://github.com/AnuPlayz/AnuPlayz/assets/120038186/c986a5d2-ba83-4eb6-ab14-7fa99d0e4275)
+<div align="center">![d9e1e8dae9d45a41618667ba823d18f8](https://github.com/AnuPlayz/AnuPlayz/assets/120038186/c986a5d2-ba83-4eb6-ab14-7fa99d0e4275)</div>
 
 <h1 align="center">Hi 👋, I'm Aniruddh Dubge</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
