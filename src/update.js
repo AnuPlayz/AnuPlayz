@@ -34,7 +34,9 @@ const WriteReadMe = async () => {
   );
 
   //Creating the text what we gonna save on ReadMe file
-  const text = `<h1 align="center">Hi 👋, I'm Aniruddh Dubge</h1>
+  const text = `<p align="center"><img src="https://github.com/AnuPlayz/AnuPlayz/assets/120038186/3cb287eb-6ea3-4bec-ae55-fd1769532fa1"></p>
+  
+<h1 align="center">Hi 👋, I'm Aniruddh Dubge</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=anuplayz&label=Profile%20views&color=0e75b6&style=flat" alt="anuplayz" /> </p>
