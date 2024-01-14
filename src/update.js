@@ -9,7 +9,7 @@ let special;
 
 const CountStars = async () => {
   let StarsData = await fetch(
-    `https://api.github.com/users/anuplayz/starred?per_page=100&page=${page}`
+    `https://api.github.com/users/AnuPlayz/starred?per_page=100&page=${page}`
   ).then((res) => res.json());
   stars += StarsData.length;
   page++;
@@ -29,41 +29,47 @@ const WriteReadMe = async () => {
   else if(mm === 9 && dd === 29) special = ["🎉", "🎈", "🎊"]
 
   //Fetching Info From Github API
-  let UserData = await fetch("https://api.github.com/users/anuplayz").then(
+  let UserData = await fetch("https://api.github.com/users/AnuPlayz").then(
     (res) => res.json()
   );
 
   //Creating the text what we gonna save on ReadMe file
-  const text = `<p align="center"><img src="https://github.com/AnuPlayz/AnuPlayz/assets/120038186/3cb287eb-6ea3-4bec-ae55-fd1769532fa1"></p>
+  const text = `## Hi there 👋 <img align="right" src="https://avatars.githubusercontent.com/u/120038186?v=4" width="200" />
+  I'm **Aniruddh**, An developer from somewhere in the earth. I like to code web applications and games. I have worked on many projects in my past, Some of my open source projects are pinned below make sure to check them out.
   
-<h1 align="center">Hi 👋, I'm Aniruddh Dubge</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=anuplayz&label=Profile%20views&color=0e75b6&style=flat" alt="anuplayz" /> </p>
-
-- 🔭 I’m currently working on **Venti Cards | Blockchain Project**
-
-- 🌱 I’m currently learning **solidity**
-
-- 💬 Ask me about **react , solidity**
-
-- 📫 How to reach me **adubge@gmail.com**
-
-- ⚡ Fun fact **I think I am funny**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://instagram.com/ani__x_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ani__x_" height="30" width="40" /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
-
-<h2 align="center"> 🚀 My Stats 🚀</h2>
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=anuplayz&theme=tokyonight">
-</p>
-
+  My skill set encompasses a breadth of technologies, including TypeScript, JavaScript, API development, both Backend and Frontend proficiency, and a holistic command of Full Stack development. I leverage Prisma and Express for robust backend architecture, while employing Next.js with TypeScript for Full Stack applications and Node.js for backend implementations. Additionally, my expertise extends to the intricate domains of Discord bot development, Blockchain, Web3, and DApps, reflecting a commitment to staying at the forefront of technological advancements.
+    
+  Thanks for visiting my github profile. Have a great day ahead!~
+    
+  <h2 align="center"> ✨ About Me ✨</h2>
+  
+  \`\`\`js
+  const Aniruddh = {
+      FavouriteLanguage: "Javascript/Typescript",
+      OpenedIssues: 79,
+      OpenedPullRequests: 71,
+      TotalCommits: 1069,
+      Stars: 10,
+      Repositories: {
+         Created: 198,
+         Contributed: 13
+      },
+  }; //I'm a Epic Object, UwU
+  \`\`\`
+    
+  <h2 align="center"> 🚀 My Stats 🚀</h2>
+  <p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AnuPlayz&theme=tokyonight">
+  </p>
+  <details>
+    <summary>
+        Even more stats
+    </summary>
+    <p align="center">
+      <img src="https://github-profile-trophy.vercel.app/?username=AnuPlayz&theme=dracula">
+      <img src="https://github-readme-stats.vercel.app/api?username=AnuPlayz&theme=tokyonight&count_private=true&show_icons=true&include_all_commits=true">
+    </p>
+  </details>
   
 <!-- Last updated on ${date.toString()} ;-;-->
 <i>Last updated on ${date.getDate()}${
@@ -89,7 +95,7 @@ const WriteReadMe = async () => {
       "November",
       "December",
     ][date.getMonth()]
-  } ${date.getFullYear()} using magic</i> ${special?special[2]:"✨"} ${(mm === 3 && dd === 29)?"and... today is my birthday":""}`;
+  } ${date.getFullYear()} using magic</i> ${special?special[2]:"✨"} ${(mm === 9 && dd === 29)?"and... today is my birthday":""}`;
 
   //Saving on readme.md
   fs.writeFileSync(ReadMe, text);
